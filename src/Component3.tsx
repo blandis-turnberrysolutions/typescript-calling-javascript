@@ -4,14 +4,12 @@ interface Component3Props {
 
 export function Component3({ onClick }: Component3Props) {
   return (
-    <>
-      <button
-        onClick={() => {
-          onClick(1);
-        }}
-      >
-        Test Typescript
-      </button>
-    </>
+    <button
+      onClick={() => {
+        onClick(1);
+      }}
+    >
+      Test Typescript
+    </button>
   );
 }
